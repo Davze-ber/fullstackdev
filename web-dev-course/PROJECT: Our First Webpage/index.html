@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A fully strucured  HTML page" />
+    <meta name="author" content="David" />
+    <title>HTML Stucture</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my Itroduction to HTML</h1>
+        <p>Let me show you various <abbr title="Hyper Text Markup Language">HTML</abbr> elements</p>
+    </header>
+    <section>
+        <h2>We have :</h2>
+        <ol>
+            <li>Document Structure Tags</li>
+            <li>Semantic Tags</li>
+            <li>Text Content Tags</li>
+            <li>List Tags</li>
+            <li>Table Tags</li>
+        </ol>
+
+        <h3>1. Document Structure Tags</h3>
+        <ul>
+            <li>&lt;html&gt;</li>
+            <li>&lt;meta&gt;</li>
+            <li>&lt;head&gt;</li>
+            <li>&lt;body&gt;</li>
+            <li>&lt;title&gt;</li>
+            <li>&lt;link&gt;</li>
+        </ul>
+        <h3>2. Sectioning Tags</h3>
+        <ul>
+            <li>&lt;header&gt;</li>
+            <li>&lt;nav&gt;</li>
+            <li>&lt;main&gt;</li>
+            <li>&lt;article&gt;</li>
+            <li>&lt;section&gt;</li>
+            <li>&lt;aside&gt;</li>
+            <li>&lt;div&gt;</li>
+        </ul>
+        <h3>3. Text Content Tags</h3>
+        <ul>
+            <li>&lt;h1&gt; to &lt;h6&gt;</li>
+            <li>&lt;p&gt;</li>
+            <li>&lt;span&gt;</li>
+            <li>&lt;strong&gt;</li>
+            <li>&lt;em&gt;</li>
+            <li>&lt;b&gt;</li>
+            <li>&lt;i&gt;</li>
+            <li>&lt;u&gt;</li>
+            <li>&lt;mark&gt;</li>
+            <li>&lt;small&gt;</li>
+            <li>&lt;sub&gt;</li>
+            <li>&lt;sup&gt;</li>
+        </ul>
+        <h3>4. List Tags</h3>
+        <ul>
+            <li>&lt;ul&gt;</li>
+            <li>&lt;ol&gt;</li>
+            <li>&lt;li&gt;</li>
+        </ul>
+        <h3>5. Table Tags</h3>
+        <ul>
+            <li>&lt;table&gt;</li>
+            <li>&lt;thead&gt;</li>
+            <li>&lt;tbody&gt;</li>
+            <li>&lt;tfoot&gt;</li>
+            <li>&lt;tr&gt;</li>
+            <li>&lt;th&gt;</li>
+            <li>&lt;td&gt;</li>
+            <li>&lt;col&gt;</li>
+            <li>&lt;colgroup&gt;</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Showcase of Table</h2>
+        <table border="2">
+            <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1.</td>
+                <td>&lt;html&gt;</td>
+                <td>Root element of a HTML page</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>&lt;nav&gt;</td>
+                <td>Defines navigation links</td>
+            </tr>
+            <tr>
+            <td>3.</td>
+            <td>&lt;span&gt;</td>
+            <td>Inline container for text or small content</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Survey</h2>
+        <form>
+            <label for="name">Your name:</label>
+            <input type="text" name="name" id="name" required />
+            <br />
+            <label for="email"> Your email:</label>
+            <input type="email" name="email" id="email" required />
+            <br />
+           <label for="age">Please select your age group</label>
+            <select id="country">
+                <option value="">Please Choose</option>
+                <option value="21-30">21-30</option>
+                <option value="31-40">31-40</option>
+                <option value="41-50">41-50</option>
+            </select>
+            <br />
+            <br />
+            <fieldset style="width: 25em">
+                <legend>How satisfied you were with my showcase</legend>
+                <label for="good">Good:</label>
+                <input type="radio" name="survey" id="good" />
+                <br />
+                <label for="neutral">Neutral:</label>
+                <input type="radio" name="survey" id="neutral" />
+                 <br />
+                <label for="bad">Bad:</label>
+                <input type="radio" name="survey" id="bad" />
+            </fieldset>
+            <br />
+            <button type="submit">Sign up</button>
+        </form>
+    </section>
+        <hr />
+        <section>
+        <h2>If there was any problem. You can contact us.</h2>
+        <address>
+            Addres: 1234 Maple Street, Springfield, IL 62704, USA
+            <br >
+            Email: <a href="mailto:david@example.com">david@example.com</a>
+            <br/>
+            Phone: <a href="tel:+555555555">555-555-555</a>
+        </address>
+        </section>
+    <footer>
+        <p><i>Copyright &#169; Made by David 2025</i></p>
+    </footer>
+</body>
+
+</html>
